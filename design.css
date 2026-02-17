@@ -1,0 +1,195 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:wght@700&amp;display=swap');
+
+        /* Footer */
+        .footer {
+            background: linear-gradient(135deg, #1f2937, #111827);
+            color: #ccc;
+            padding: 60px 8%;
+            border-radius: 20px;
+            position: relative;
+        }
+
+        .footer-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+        }
+
+        .footer-col h2,
+        .footer-col h3 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .footer-col p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col ul li {
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .footer-col ul li:hover {
+            color: #8b5cf6;
+        }
+
+        /* Social Icons */
+        .social-icons i {
+            margin-right: 12px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .social-icons i:hover {
+            color: #8b5cf6;
+        }
+
+        /* Newsletter */
+        .newsletter {
+            display: flex;
+            margin-top: 15px;
+        }
+
+        .newsletter input {
+            padding: 10px;
+            border: none;
+            border-radius: 6px 0 0 6px;
+            outline: none;
+            width: 70%;
+        }
+
+        .newsletter button {
+            padding: 10px 18px;
+            border: none;
+            background: #6366f1;
+            color: white;
+            border-radius: 0 6px 6px 0;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .newsletter button:hover {
+            background: #4f46e5;
+        }
+
+        /* Back to Top Button */
+        .top-btn {
+            position: absolute;
+            right: 25px;
+            bottom: 25px;
+            background: #111827;
+            border: 2px solid #6366f1;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .top-btn i {
+            color: #6366f1;
+        }
+
+        .top-btn:hover {
+            background: #6366f1;
+        }
+
+        .top-btn:hover i {
+            color: white;
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .footer-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .footer-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        :root {
+            --primary: 99 102 241;
+        }
+
+        .tail-container {
+            font-family: 'Inter', system_ui, sans-serif;
+        }
+
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://picsum.photos/id/1015/1920/1080');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .service-illustration {
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .service-card:hover .service-illustration {
+            transform: scale(1.05) rotate(2deg);
+        }
+
+        .project-card {
+            transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+        }
+
+        .project-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        }
+
+        .stat-number {
+            font-variant-numeric: tabular-nums;
+        }
+
+        .nav-link {
+            position: relative;
+        }
+
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: rgb(99 102 241);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover:after {
+            width: 100%;
+        }
+
+        .modal {
+            animation: modalPop 0.3s ease forwards;
+        }
+
+        @keyframes modalPop {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    
