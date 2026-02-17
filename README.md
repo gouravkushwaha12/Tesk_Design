@@ -1,5 +1,5 @@
 
-#🚀 Image Stats UI Component
+#Image Stats UI Component
 
 A modern and responsive UI component featuring a hero image with floating statistic cards and a dynamic semi-circular progress indicator.
 
@@ -7,20 +7,20 @@ Built using *HTML5, CSS3, and Vanilla JavaScript*, this project demonstrates cle
 
 ---
 
-## 📸 Project Overview
+## Project Overview
 
 This UI section includes:
 
-- ✅ Rounded hero image  
-- ✅ Floating “25000+ Happy Clients” card  
-- ✅ Semi-circular progress indicator (80% Time Saved)  
-- ✅ Soft shadow effects  
-- ✅ Responsive layout  
-- ✅ Organized folder structure  
+-  Rounded hero image  
+-  Floating “25000+ Happy Clients” card  
+-  Semi-circular progress indicator (80% Time Saved)  
+-  Soft shadow effects  
+-  Responsive layout  
+-  Organized folder structure  
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - *HTML5* – Structure  
 - *CSS3* – Styling & Layout (Flexbox, Gradients, Shadows)  
@@ -30,7 +30,7 @@ This UI section includes:
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 bash
 project-folder/
@@ -46,7 +46,7 @@ project-folder/
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 The progress bar is created using:
 
@@ -70,25 +70,25 @@ The script dynamically applies the gradient based on this value.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-1️⃣ Clone the repository:
+1️Clone the repository:
 
 bash
 git clone https://github.com/gouravkushwaha12/Tesk_Design.git
 
 
-2️⃣ Navigate into the project folder:
+ Navigate into the project folder:
 
 bash
 cd Test_Design
 
 
-3️⃣ Open index.html in your browser.
+ Open index.html in your browser.
 
 ---
 
-## 📱 Responsive Design
+##  Responsive Design
 
 - Desktop → Floating cards positioned beside image  
 - Tablet → Adjusted spacing  
@@ -96,7 +96,7 @@ cd Test_Design
 
 ---
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 This project helps you understand:
 
@@ -109,7 +109,7 @@ This project helps you understand:
 
 ---
 
-## 💡 Future Enhancements
+##  Future Enhancements
 
 - Add animated progress effect  
 - Add hover animations  
@@ -119,13 +119,13 @@ This project helps you understand:
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and free to use for learning purposes.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
-*Gourav Kumar*  
+Gourav Kumar
 Frontend Developer | UI Enthusiast
